@@ -1,0 +1,17 @@
+extern void printNum(int x)
+extern void printStr(string str)
+extern int printf(string str)
+
+class myc
+{
+	int n1
+} 
+int main()
+{
+	myc myc1
+	myc1.n1 = 1024
+	int cst
+	cst = myc1.n1
+	printNum(cst)
+	return 0
+}

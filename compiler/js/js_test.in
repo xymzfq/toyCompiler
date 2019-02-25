@@ -1,0 +1,8 @@
+
+function do_math() {
+	var a = 5
+  printNum(a)
+  return 0
+}
+
+do_math()

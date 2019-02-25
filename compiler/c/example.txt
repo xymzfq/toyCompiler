@@ -1,0 +1,39 @@
+
+
+extern void printNum(int x)
+extern void printStr(string str)
+extern int printf(string str)
+struct sct
+{
+	int ia
+	string stra
+	string strb
+}
+int func(sct tmp)
+{
+	if(tmp.ia>0)
+	{	
+		printStr(tmp.stra)
+		printNum(tmp.ia)
+		tmp.ia = tmp.ia-1
+		func(tmp)
+	}
+	else
+	{
+		printStr(tmp.strb)
+	}
+	return 0
+}
+int main()
+{
+	int i
+	for(i = 0;i<5;i=i+1)
+	{
+		sct t_sct
+		t_sct.ia = i
+		t_sct.stra = "continue.."
+		t_sct.strb = "end"
+		func(t_sct)
+	}
+	return 0
+}

@@ -1,0 +1,6 @@
+function do_math(x) 
+	a = x+10
+	return a+a*5
+end 
+
+printNum(do_math(7))

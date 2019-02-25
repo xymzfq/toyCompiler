@@ -1,0 +1,114 @@
+{
+	"children" : 
+	[
+		{
+			"children" : 
+			[
+				{
+					"name" : "NIdentifier:int"
+				},
+				{
+					"name" : "NIdentifier:do_math"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:int"
+						},
+						{
+							"name" : "NIdentifier:x"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				},
+				{
+					"children" : 
+					[
+						{
+							"children" : 
+							[
+								{
+									"name" : "NIdentifier:int"
+								},
+								{
+									"name" : "NIdentifier:a"
+								},
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:x"
+										},
+										{
+											"name" : "NInteger:10"
+										}
+									],
+									"name" : "NBinaryOperator:275"
+								}
+							],
+							"name" : "NVariableDeclaration"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:a"
+										},
+										{
+											"children" : 
+											[
+												{
+													"name" : "NIdentifier:a"
+												},
+												{
+													"name" : "NInteger:5"
+												}
+											],
+											"name" : "NBinaryOperator:277"
+										}
+									],
+									"name" : "NBinaryOperator:275"
+								}
+							],
+							"name" : "NReturnStatement"
+						}
+					],
+					"name" : "NBlock"
+				}
+			],
+			"name" : "NFunctionDeclaration"
+		},
+		{
+			"children" : 
+			[
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:printNum"
+						},
+						{
+							"children" : 
+							[
+								{
+									"name" : "NIdentifier:do_math"
+								},
+								{
+									"name" : "NInteger:7"
+								}
+							],
+							"name" : "NMethodCall"
+						}
+					],
+					"name" : "NMethodCall"
+				}
+			],
+			"name" : "NExpressionStatement"
+		}
+	],
+	"name" : "NBlock"
+}

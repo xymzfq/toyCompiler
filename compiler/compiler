@@ -1,0 +1,13 @@
+#!/bin/bash
+
+python detectLang.py $1
+
+
+for line in `cat lang`
+do
+	echo $line
+	cd $line
+	./parser < ../$1
+	#echo $1
+	#ls
+done
